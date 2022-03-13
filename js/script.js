@@ -54,9 +54,8 @@ document.addEventListener('play', function(e){
     for(let i = 0; i < players.length ; i++){
         const playerAudio = players[i].querySelector('.audio');
         const playerPlayButton = players[i].querySelector('.play-pause');
-        const timelineInput = players[i].querySelector('.timeline__input');
         if(playerAudio != e.target){
-            playButton.setAttribute('id', 'paused');
+            playerPlayButton.setAttribute('id', 'paused');
             playerAudio.pause();
             playerAudio.currentTime = 0;
         }
