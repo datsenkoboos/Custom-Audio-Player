@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>player</title>
+  <link rel="stylesheet" href="styles/app.min.css">
+  <link rel="icon" href="images/S_backed.svg">
+</head>
+<body>
+  <div class="beat-wrapper">
+    <div class="beat__col beat__col_left">
+        <img alt="wrap-image" class="wrap" src="images/S_backed.svg" width="160px" height="160px">
+    </div>
+    <div class="beat__col beat__col_right">
+        <div class="beat__char">
+            <div class="beat__char_title">Name</div>
+            <div class="beat__char_value">Trap Trap</div>
+        </div>
+        <div class="beat__char">
+            <div class="beat__char_title">Type</div>
+            <div class="beat__char_value">LOVV66</div>
+        </div>
+        <div class="beat__char">
+            <div class="beat__char_title">Bpm</div>
+            <div class="beat__char_value">160</div>
+        </div>
+        <div class="beat__player">
+          <audio class="audio" src="audio/traptrap.wav" preload="metadata"></audio>
+          <div class="controls">
+            <button id="paused" class="play-pause"></button>
+            <input type="range" class="timeline__input" value="0">
+            <div class="time">
+              <span class="time__current">0:00</span>
+              <span class="time__separator">/</span>
+              <span class="time__full"></span>
+            </div>
+            <div class="download">
+              <a href="audio/traptrap.wav" download="" class="download__link">&nbsp;</a>
+            </div>
+          </div>
+        </div>
+        </div>
+  </div>
+  <script src="js/app.min.js"></script>
+</body>
+</html>
