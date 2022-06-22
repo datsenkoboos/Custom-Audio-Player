@@ -1,6 +1,6 @@
 # Custom-Audio-Player
 
-<h3>Preview: https://s1kebtz.github.io/Custom-Audio-Player/</h3>
+<h3>Preview: https://datsenkoboos.github.io/Custom-Audio-Player/</h3>
 
 Simple JavaScript audio player.
 Supports multiple players on one page.
