@@ -1,7 +1,7 @@
 <template>
   <BeatstorePlayer
     :mp3="`${publicPath}audio/10TD_s1kebeats_140BPM.mp3`"
-    :wav="`${publicPath}audio/10TD_s1kebeats_140BPM.wav`"
+    :wav="`${publicPath}audio/10TD_s1kebeats_140BPM.mp3`"
   />
 </template>
 
